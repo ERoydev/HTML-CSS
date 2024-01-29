@@ -1,0 +1,23 @@
+body {
+    font: 14px/1.5 Helvetica, sans-serif;
+    padding: 2em;
+    background-color: rgb(238, 238, 238);
+}
+
+img {
+    width: 20%;
+    height: auto;
+}
+
+footer {
+    padding: 1em 0;
+}
+
+article {
+    width: 60%;
+}
+
+article, aside {
+    display: inline-block;
+    vertical-align: top;
+}
