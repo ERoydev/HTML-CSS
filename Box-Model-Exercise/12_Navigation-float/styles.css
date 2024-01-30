@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    background-color: #bbbbbb;
+    color: #333;
+    font: 17px/1.5 'Roboto', sans-serif;
+    padding: 2em;
+}
+
+.container {
+    max-width: 90em;
+    margin: 0 auto;
+}
+
+header p a {
+    text-transform: uppercase;
+}
+
+header p,
+nav,
+nav li {
+    display: inline-block;
+}
+
+.container > header {
+    border-bottom: 2px solid rgba(63, 63, 63, 0.856);
+}
+
+nav {
+    float: right;
+    margin-top: 20px;
+}
+
+nav li {
+    padding: 0 0.5em;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #090;
+    padding: 0.5em 1em;
+}
+
+header p a {
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 600;
+    color: black;
+}
+
+article {
+    max-width: 58em;
+}
+
+img {
+    padding: 0.5em;
+    background-color: white;
+    border: 0.2em solid black;
+    box-shadow: 0 0 1em 0.5em rgb(0, 0, 0, 0.2);
+    margin-left: 20px;
+}
+
+.elevator-img {
+    float: right;
+}
+
+.left-side {
+    float: left;
+    max-width: 25em;
+    padding-right: 3.5em;
+    border-right: 1px solid rgba(107, 107, 107, 0.486);
+}
+
+.right-side {
+    float: right;
+    max-width: 25em;
+}
+
+.right-side p {
+    color: rgb(80, 80, 80);
+}
+
+.right-side p:nth-child(2) {
+    position: relative;
+    right: -270px;
+}
+
+.flower-img {
+    margin: 0 1em 0 0;
+    float: left;
+}

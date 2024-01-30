@@ -29,6 +29,7 @@ nav ul ul {
     position: absolute;
     top: 100%; /* za da se naredi kolkoto height na li */
     left: 0;
+    padding: 0.1em;
 }
 
 nav ul ul li {

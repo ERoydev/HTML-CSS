@@ -26,6 +26,14 @@ body {
     box-shadow: 0 0 5em 0.5 rgb(0, 0, 0, 0.2) inset;
 }
 
+.content {
+    margin-bottom: 15px;
+}
+
+.card p {
+    padding: 0 0 1em 0;
+}
+
 .card a {
     position: relative;
     left: 360px;
