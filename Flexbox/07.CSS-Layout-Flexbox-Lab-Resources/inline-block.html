@@ -12,6 +12,14 @@
             box-sizing: border-box;
         }
 
+        body {
+            padding: 2em;
+        }
+
+        p {
+            padding-bottom: 1.5em;
+        }
+
         .site {
             max-width: 40em;
             margin: 2em auto;
@@ -47,6 +55,18 @@
             display: flex;
         }
 
+        a.button {
+            display: inline-block;
+            padding: 1em;
+            background: #369;
+            color: #fff;
+        }
+
+        .buttons .button + .button {
+            margin-left: 1em;
+        }
+
+
 
     </style>
 </head>
@@ -72,8 +92,15 @@
                 <li>Item 1</li>
             </ul>
         </aside>
-
     </div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto perspiciatis fuga molestiae ipsum nobis laudantium incidunt, porro suscipit rem soluta est repudiandae? Ad debitis, iure ea rerum beatae suscipit facere.</p>
+    <p class="buttons">
+            <a href="#" class="button">I am a button</a>
+            <a href="#" class="button">I am a button</a>
+            <a href="#" class="button">I am a button</a>
+    </p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto perspiciatis fuga molestiae ipsum nobis laudantium incidunt, porro suscipit rem soluta est repudiandae? Ad debitis, iure ea rerum beatae suscipit facere.</p>
     
 </body>
 </html>

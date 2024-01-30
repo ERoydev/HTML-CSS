@@ -20,14 +20,22 @@
             border: 2px solid black;
             padding: 2em;
             display: flex;
-            align-items: center;
-            gap: 2em;
+            flex-wrap: wrap;
         }
 
         .item {
             border: 2px solid green;
             padding: 0.5em;
+            flex-grow: 1;
+            flex-shrink: 0;
+            flex-basis: 300px;
         }
+
+        .item:nth-child(3) {
+    
+        }
+
+
 
 
     </style>
