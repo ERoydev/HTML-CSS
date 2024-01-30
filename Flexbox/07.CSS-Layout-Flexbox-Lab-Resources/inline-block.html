@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline Block</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .site {
+            max-width: 40em;
+            margin: 2em auto;
+            border: 2px solid black;
+            padding: 2em;
+        }
+
+        /* DISPLAY INLINE-BLOCK */
+        /* main, aside {
+            width: 50%;
+            display: inline-block;
+            border: 2px solid darkgreen;
+            vertical-align: top;
+        } */
+
+        /* FLOAT */
+        /* main, aside {
+            width: 50%;
+            display: block;
+            border: 2px solid darkgreen;
+            float: left;
+        }
+
+        .site {
+            overflow: hidden;
+        } */
+
+        main, aside{
+            width: 50%;
+            border: 2px solid darkgreen;
+        }
+        .site {
+            display: flex;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="site">
+        <main>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus laborum autem recusandae pariatur repellendus eos beatae impedit at reiciendis fuga, laudantium officia facilis. Architecto accusamus deserunt exercitationem, nisi voluptatibus qui?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus laborum autem recusandae pariatur repellendus eos beatae impedit at reiciendis fuga, laudantium officia facilis. Architecto accusamus deserunt exercitationem, nisi voluptatibus qui?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus laborum autem recusandae pariatur repellendus eos beatae impedit at reiciendis fuga, laudantium officia facilis. Architecto accusamus deserunt exercitationem, nisi voluptatibus qui?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus laborum autem recusandae pariatur repellendus eos beatae impedit at reiciendis fuga, laudantium officia facilis. Architecto accusamus deserunt exercitationem, nisi voluptatibus qui?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus laborum autem recusandae pariatur repellendus eos beatae impedit at reiciendis fuga, laudantium officia facilis. Architecto accusamus deserunt exercitationem, nisi voluptatibus qui?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus laborum autem recusandae pariatur repellendus eos beatae impedit at reiciendis fuga, laudantium officia facilis. Architecto accusamus deserunt exercitationem, nisi voluptatibus qui?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus laborum autem recusandae pariatur repellendus eos beatae impedit at reiciendis fuga, laudantium officia facilis. Architecto accusamus deserunt exercitationem, nisi voluptatibus qui?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus laborum autem recusandae pariatur repellendus eos beatae impedit at reiciendis fuga, laudantium officia facilis. Architecto accusamus deserunt exercitationem, nisi voluptatibus qui?</p>
+
+        </main>
+        <aside>
+            <h3>Panel Header</h3>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 1</li>
+                <li>Item 1</li>
+            </ul>
+        </aside>
+
+    </div>
+    
+</body>
+</html>
