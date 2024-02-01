@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .container {
+            width: 200px;
+            border: 1px solid rgba(87, 87, 87, 0.596);
+            border-radius: 10px;
+            padding: 1em;
+        }
+
+        .form {
+            display: flex;
+            align-items: flex-end;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .name {
+            flex-grow: 1;
+            flex-basis: 160px;
+        }
+
+        .email { 
+            flex-grow: 3;
+            flex-basis: 200px;
+        }
+
+        button {
+            flex-grow: 1;
+            flex-basis: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <p class="information">Container width = 200px</p>
+        <input type="range" id="slider" min="200" max="600" step="10" class="rangeBar" value="200">
+        <div class="container">
+            <form class="form">
+                <label>Name:</label>
+                <input type="text" placeholder="Olga" class="name">
+                <label>Email:</label>
+                <input class="email" type="text" placeholder="Olga7269@hotmail.com">
+            <button>Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js" ></script>
+</body>
+</html>
