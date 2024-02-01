@@ -1,0 +1,24 @@
+
+html {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+
+h2 {
+    font-family: Georgia, serif;
+}
+
+section {
+    max-width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 2em auto;
+    gap: 2em;
+}
+
+/* Space between shte raboti ako max-width e po golqmo ot 600px  */
+
+article {
+    flex: 0 0 200px;
+}
