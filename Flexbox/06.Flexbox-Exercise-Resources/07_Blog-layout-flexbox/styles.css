@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    padding: 2em;
+    font-family: 'Roboto', sans-serif;
+    background: #eee;
+}
+
+p, ul {
+    padding-bottom: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+ 
+h1 { font-size: 2.8em;}
+h2 { font-size: 2.2em;}
+h3 { font-size: 1.8em;}
+
+
+.page {
+    max-width: 50em;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em 4em;
+}
+
+.site-header {
+    flex: 0 0 100%;
+    border-bottom: 2px solid black;
+}
+
+
+.site-main {
+    flex: 0 0 80%;
+}
+
+.site-aside {
+    flex: 1 0 auto;
+}
+
+.align-right {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+.align-left {
+    float: left;
+    margin: 0 1em 1em 0;
+
+}
+
+img[class*="align"] {
+    border: 3px solid #333;
+    padding: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 0.5em 0 rgb(0, 0, 0, 0.3);
+}
+
+blockquote[class*="align"] {
+    opacity: 0.7;
+    font-style: italic;
+    max-width: 50%;
+}
+
+blockquote.align-right {
+    padding-left: 1em;
+    border-left: 1px solid #ccc;
+}
+
+blockquote.align-left {
+    padding-right: 1em;
+    border-right: 1px solid #ccc;
+}
+
+
+blockquote .author {
+    text-align: right;
+}
+
+
+.site-aside a {
+    text-decoration: none;
+    color: #090;
+}
+
+.site-aside p {
+    font-size: 18px;
+}
+
+.site-title {
+    font-size: 3em;
+    line-height: 1;
+    font-weight: bold;
+    padding: 0;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none outside;
+}
+
+
+nav ul a {
+    display: block;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+    color: #090;
+}
+
+.site-aside ul li {
+    list-style-position: inside;
+}
