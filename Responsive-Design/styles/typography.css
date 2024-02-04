@@ -1,0 +1,61 @@
+
+/* font-size, line-height, font-family */
+html {
+    font: 16px/1.4 Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Tezi elementi da nasledqvat font */
+body, table, input, button {
+    font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+    font-weight: normal;
+}
+
+h1 { font-size: 3.0em;}
+h2 { font-size: 2.4em;}
+h3 { font-size: 1.8em;}
+h4 { font-size: 1.4em;}
+h5 { font-size: 1.2em; font-weight: bold;}
+h6{ font-size: 1em; font-weight: bold; }
+
+/* Ako ul e ot purvo nivo shte ima padding-bottom */
+p, * + ul, * + ol {
+    padding-bottom: 1.5em;
+}
+
+ul, ol, blockquote {
+    padding-left: 1.5em;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+blockquote {
+    border-left: 4px solid #ccc;
+    margin-bottom: 1.5em;
+    font-style: italic;
+    color: #666;
+}
+
+/* blockquote p:first-child:before,
+blockquote:has(.author) p:nth-last-child(2):not(.author) */
+
+blockquote p:last-child {
+    padding-bottom: 0;
+}
+
+blockquote p.author {
+    padding-bottom: 0;
+}
+
+blockquote p.author:before {
+    display: inline-block;
+    content: "- ";
+    padding-right: 0.5em;
+}

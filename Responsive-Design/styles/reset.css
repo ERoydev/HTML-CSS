@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* padding i border nqma da mi opredelqt razmera na kutiikite kogato polzvam width */
+html {
+    box-sizing: border-box;
+}
+
+/* Ideqta e vsichki psevdo elementi da iheritvat box-sizing, koito suzdavam v posledstvie */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
