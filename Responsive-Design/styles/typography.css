@@ -1,12 +1,28 @@
 
 /* font-size, line-height, font-family */
 html {
-    font: 16px/1.4 Georgia, 'Times New Roman', Times, serif;
+    font: 12px/1.4 Georgia, 'Times New Roman', Times, serif;
 }
 
 /* Tezi elementi da nasledqvat font */
 body, table, input, button {
     font: inherit;
+}
+
+@media (min-width: 600px) {
+    html { font-size: 14px; }
+}
+
+@media (min-width: 900px) {
+    html { font-size: 16px; }
+}
+
+@media (min-width: 1200px) {
+    html { font-size: 18px; }
+}
+
+@media (min-width: 1400px) {
+    html { font-size: 20px; }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -58,4 +74,10 @@ blockquote p.author:before {
     display: inline-block;
     content: "- ";
     padding-right: 0.5em;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
