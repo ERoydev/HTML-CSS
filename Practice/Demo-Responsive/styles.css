@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    background-color: #EEE;
+    color: #333;
+    font: 17px/1.5 'Roboto', sans-serif;
+    padding: 2em;
+}
+
+.container {
+    max-width: 90em;
+    margin: 0 auto;
+}
+
+header p a {
+    text-transform: uppercase;
+}
+
+header p,
+header nav,
+header nav li {
+    display: inline-block;
+}
+
+.container > header {
+    border-bottom: 2px solid rgba(63, 63, 63, 0.856);
+}
+
+header nav {
+    margin-top: 20px;
+}
+
+header nav li {
+    padding: 0 0.5em;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #090;
+    padding: 0.5em 1em;
+}
+
+header p a {
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 600;
+    color: black;
+}
+
+article {
+    max-width: 58em;
+}
+
+img {
+    padding: 0.5em;
+    background-color: white;
+    border: 0.2em solid black;
+    box-shadow: 0 0 1em 0.5em rgb(0, 0, 0, 0.25);
+    margin-left: 20px;
+}
+
+main,
+aside {
+    display: inline-block;
+}
+
+aside {
+    vertical-align: top;
+    padding: 0.2em 0 0 3em;
+}
+
+aside li a {
+    color: #090;
+    text-decoration: none;
+}
+
+.align-right {
+    float: right;
+    margin: 0 0 1.5em 1.5em;
+}
+
+.align-left {
+  float: left;
+  margin: 0 1.5em 1.5em 0;
+}
+
+blockquote {
+    max-width: 25em;
+  opacity: 0.7;
+}
+
+blockquote.align-right {
+  padding-left: 1em;
+  border-left: 1px solid rgba(107, 107, 107, 0.486);
+}
+
+blockquote.align-left {
+  padding-right: 1em;
+  border-right: 1px solid rgba(107, 107, 107, 0.486);
+}
+
+
+.author {
+  text-align: right;
+}
+
