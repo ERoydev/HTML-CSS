@@ -8,6 +8,12 @@ body {
     padding: 2em;
 }
 
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .container {
     max-width: 90em;
     margin: 0 auto;
@@ -28,7 +34,7 @@ header nav li {
 }
 
 header nav {
-    margin-top: 20px;
+    margin-top: 1em;
 }
 
 header nav li {
@@ -57,7 +63,7 @@ img {
     background-color: white;
     border: 0.2em solid black;
     box-shadow: 0 0 1em 0.5em rgb(0, 0, 0, 0.25);
-    margin-left: 20px;
+    margin-left: 1em;
 }
 
 main,

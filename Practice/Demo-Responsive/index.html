@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="site.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <p><a href="#">Site title</a></p>
+    <div class="site">
+        <header class="site-header">
+            <p class="site-title"><a href="#">Site title</a></p>
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -19,7 +19,8 @@
                 </ul>
             </nav>
         </header>
-        <main>
+
+        <main class="site-main">
             <article>
                 <section>
                     <header>
@@ -59,9 +60,12 @@
             </article>
         </main>
         
-        <aside>
-            <section>
-                <h3>Categories</h3>
+        <aside class="site-aside">
+            <section class="widget">
+                <header>
+                    <h3>Categories</h3>
+                </header>
+
                 <nav>
                     <ul>
                         <li><a href="#">Stuff</a></li>
@@ -71,8 +75,12 @@
                     </ul>
                 </nav>
             </section>
-            <section>
-                <h3>Social</h3>
+
+            <section class="widget">
+                <header>
+                    <h3>Social</h3>
+                </header>
+
                 <nav>
                     <ul>
                         <li><a href="">Facebook</a></li>
