@@ -4,52 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-
-        .container {
-            width: 200px;
-            border: 1px solid rgba(87, 87, 87, 0.596);
-            border-radius: 10px;
-            padding: 1em;
-        }
-
-        .form {
-            display: flex;
-            align-items: flex-end;
-            flex-wrap: wrap;
-            gap: 16px;
-        }
-
-        .name {
-            flex-grow: 1;
-            flex-basis: 160px;
-        }
-
-        .email { 
-            flex-grow: 3;
-            flex-basis: 200px;
-        }
-
-        button {
-            flex-grow: 1;
-            flex-basis: 80px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ce69090442.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="main">
-        <p class="information">Container width = 200px</p>
-        <input type="range" id="slider" min="200" max="600" step="10" class="rangeBar" value="200">
-        <div class="container">
-            <form class="form">
-                <label>Name:</label>
-                <input type="text" placeholder="Olga" class="name">
-                <label>Email:</label>
-                <input class="email" type="text" placeholder="Olga7269@hotmail.com">
-            <button>Submit</button>
-            </form>
-        </div>
+    <div class="container">
+        <main>
+            <article>
+                <section class="content">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p class="desc">Stay away from those people who try to disparage your ambitions. Small minds will always do that, but great minds will give you a feeling that you can become great too.</p>
+                    <p class="author">Stanley Kimball</p>
+                </section>
+
+                <section class="media">
+                    <span></span>
+                </section>
+                    
+            </article>
+             
+            <article>
+                <section class="content">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p  class="desc">Success is peace of mind, which is a direct result of self-satisfaction in knowing you made the effort to become the best of which you are capable.</p>
+                        <p class="author">Friday Davison </p>
+                </section>
+
+                <section class="media">
+                    <span></span>
+                </section>
+
+            </article>
+            
+
+        </main>
+
+        <aside>
+            <article>
+
+                <section class="content">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p class="desc">Teamwork is the ability to work together toward a common vision. The ability to direct individual accomplishments toward organizational objectives. It is the fuel that allows common people to attain uncommon results. Individual commitment to a group effort—that is what makes a team work, a company work, a society work, a civilisation work.</p>
+                </section>
+                
+                <section class="details">
+                    <section class="media">
+                        <span></span>
+                    </section>
+
+                    <section class="person">
+                        <p class="author">John Doe</p>
+                        <p class="profession">Software Engineer</p>
+                    </section>
+
+                </section>
+
+                
+                
+            </article>
+        </aside>
     </div>
-    <script src="script.js" ></script>
+    
 </body>
 </html>
