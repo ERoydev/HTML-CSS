@@ -1,0 +1,37 @@
+body {
+    padding: 2em;
+}
+
+@media (min-width: 800px) {
+    .site {
+        max-width: 90em;
+        margin: 0 auto;
+    }
+}
+
+
+main,
+aside {
+    display: inline-block;
+}
+
+article {
+    max-width: 58em;
+}
+
+
+header p,
+header nav,
+header nav li {
+    display: inline-block;
+}
+
+.align-right {
+    float: right;
+    margin: 0 0 1.5em 1.5em;
+}
+
+.align-left {
+  float: left;
+  margin: 0 1.5em 1.5em 0;
+}

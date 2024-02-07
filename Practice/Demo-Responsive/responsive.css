@@ -1,6 +1,24 @@
+@media (max-width: 800px) {
+    .site {
+        flex-direction: column;
+    }
+
+    .site-header {
+        flex-direction: column;
+    }
+
+}
 
 
-@media (max-width: 600px) {
+/* @media (hover: hover) {
+    .site-header {
+        background: orange;
+    }
+} */
+
+
+/* 
+@media (max-width: 500px) {
     .site-header {
         background-color: red;
     }
@@ -11,4 +29,4 @@
     .site-header {
         background: blue;
     }
-}
+} */

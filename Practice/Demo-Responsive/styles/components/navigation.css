@@ -1,0 +1,70 @@
+
+#nav-toggle {
+    appearance: none;
+    pointer-events: none;
+}
+
+label {
+    display: none;
+    color: #090;
+    font-size: 1.5em;
+}
+
+#nav-toggle:checked {
+    .nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+header {
+    position: relative;
+}
+
+header nav {
+    margin-top: 1em;
+}
+
+
+header nav li {
+    display: block;
+    padding: 0 0.5em;
+}
+
+header nav ul {
+    display: flex;
+}
+header nav a {
+    display: block;
+    text-decoration: none;
+    color: #090;
+    padding: 0.5em 1em;
+}
+
+
+@media (max-width: 600px) {
+    header nav ul {
+        display: none;
+    }
+
+    nav ul a {
+        color: black;
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+
+    label {
+        display: inline-block;
+    }
+
+    #nav-toggle:checked ~ nav ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 4em;
+        left: 117px;
+        background: #369;
+        padding: 0.5em 0;
+        border-radius: 10px;
+    }
+}
