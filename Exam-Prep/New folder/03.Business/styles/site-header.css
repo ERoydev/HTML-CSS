@@ -1,0 +1,28 @@
+
+
+.site-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    border-bottom: 2px solid black;
+}
+
+
+.header-text {
+    max-width: 50%;
+    padding-left: 15em;
+    padding-top: 6em;
+    color: #fff;
+}
+
+.nav-logo {
+    flex: 0 0 6em;
+}
+
+.header-text p {
+    padding-top: 1em;
+}
