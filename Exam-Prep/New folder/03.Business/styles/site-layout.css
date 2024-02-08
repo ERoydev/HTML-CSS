@@ -3,8 +3,55 @@ a {
     text-decoration: none;
 }
 
+.site-header {
+    padding-bottom: 5em;
+}
+
 .site-main {
     display: flex;
     flex-direction: column;
 }
 
+.section1 {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-bottom: 2em;
+}
+
+.section-title1 {
+    font-size: 2em;
+    color: rgb(29, 28, 28);
+    padding-bottom: 0.5em;
+}
+
+.section1 section {
+    flex: 0 0 30%;
+}
+
+.section1 {
+    padding: 5.5em 2em;
+    border-bottom: 1px solid #ccc;
+}
+
+.sponsor-media {
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+}
+
+.section-title2 {
+    color: coral;
+}
+
+.section2 section {
+    text-align: center;
+}
+
+.sponsor-media img {
+    flex: 0 0 7em;
+    background-color: #ccc;
+    padding: 0.5em 1em;
+    border-radius: 50%;
+    margin-bottom: 2em;
+}
