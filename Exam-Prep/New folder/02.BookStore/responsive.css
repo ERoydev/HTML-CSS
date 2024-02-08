@@ -1,0 +1,44 @@
+@media (max-width: 600px) {
+    html {
+        font-size: 12px;
+    }
+    .home-navbar1 {
+        display: none;
+    }
+
+    .home-left4 {
+        padding: 1.5em;
+        flex: 1 0 100%;
+        flex-wrap: wrap;
+    }
+
+    .section-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-image6 {
+        width: 100%;
+    }
+
+    .max-width-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-footer1 {
+        padding: 3em 0 1em 0;
+        flex-direction: column;
+    }
+
+    .home-links-container {
+        flex-direction: column;
+        align-items: flex-start;
+        order: 1;
+        padding-bottom: 2em;
+    }
+
+    .home-container09 {
+        order: 10;
+    }
+}   
