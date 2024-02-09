@@ -15,8 +15,9 @@ a {
 .section1 {
     display: flex;
     justify-content: center;
-    gap: 2em;
+    gap: 3em;
     margin-bottom: 2em;
+    flex-wrap: wrap;
 }
 
 .section-title1 {
@@ -26,7 +27,7 @@ a {
 }
 
 .section1 section {
-    flex: 0 0 30%;
+    flex: 0 0 30em;
 }
 
 .section1 {
