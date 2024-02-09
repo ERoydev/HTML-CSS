@@ -4,6 +4,12 @@ html {
 
 body {
     padding: 2em;
+    background: #eee;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (min-width: 800px) {
@@ -25,6 +31,10 @@ body {
 .site-header,
 .site-footer {
     flex: 0 0 100%;
+    padding: 1em 1.5em;
+    border-radius: 0.3em;
+    background: #fff;
+    box-shadow: -0.2em 0.2em 0.5em 0 rgba(0, 0, 0, 0.2);
 }
 
 main {
