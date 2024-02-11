@@ -1,37 +1,83 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
-html {
-    font: 16px/1.5 'Helvetica', sans-serif;
-    box-sizing: border-box;
-}
-
-body, table, input {
-    box-sizing: inherit;
-}
-
 body {
-    max-width: 80%;
-    margin: 0 auto;
-    background: #ccc;
-}
-
-.container {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background: #eee;
+  color: #333;
+  font: 14px/1.5 Lato, sans-serif;
+  padding: 2em;
 }
 
 img {
-    display: block;
-    width: 100%;
-    height: auto;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+body, span, button {
+    font: inherit;
+}
+
+.container {
+    max-width: 60em;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3em;
 }
 
 .card {
     display: flex;
     flex-direction: column;
+    color: #333;
+    text-decoration: none;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.3em;
+    box-shadow: 0 0 0.5em 0 rgba(0, 0, 0, 0.2);
+}
+
+.card span {
+    display: block;
+}
+
+.card-meta, 
+.card-footer {
+    padding: 1em;
+}
+
+.card-meta {
+    flex: 1 0 auto;
+}
+
+button {
+    background: #090;
+    border-radius: 0.3em;
+    outline: none;
+    border: none;
+    float: right;
+    padding: 0.5em 1em;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.card .title {
+    font-size: 1.4em;
+}
+
+.card .desc {
+    font-size: 1em;
+}
+
+@media (max-width: 800px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 10px;
+    }
 }
