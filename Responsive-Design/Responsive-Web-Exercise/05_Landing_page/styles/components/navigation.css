@@ -1,0 +1,86 @@
+
+#nav-toggle {
+    appearance: none;
+    pointer-events: none;
+}
+
+#toggle {
+    font-size: 1.2em;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    align-items: center;
+}
+
+.site-header a {
+    text-decoration: none;
+    color: #333;
+}
+
+.logo a {
+    color: rgb(167, 14, 146);
+    font-size: 2.3em;
+}
+
+.site-header li {
+    list-style: none;
+}
+
+
+@media (min-width: 320px) {
+    .site-header {
+        position: relative;
+    }
+
+    .site-header nav {
+        display: none;
+        position: absolute;
+        right: 0; top: 3em;
+    }    
+
+    #nav-toggle:checked + .site .section nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        border-radius: 0.3em;
+        background: #ccc;
+    }
+
+
+    #nav-toggle:checked + .site .site-header label[for="nav-toggle"] span {
+        display: none;
+    }
+
+    #nav-toggle:checked + .site label[for="nav-toggle"]::before {
+        display: block;
+        content: 'Close';
+    }
+
+    .site .section nav ul {
+        display: flex;
+        width: 100%;
+        padding: 0.5em 0;
+        gap: 2em;
+        justify-content: center;
+    }
+
+    .site .section nav li {
+        padding: 0 0.5em;
+    }
+    
+    .site .section nav li:hover {
+        background: gray;
+    }
+}
+
+@media (min-width: 481px) {}
+
+@media (min-width: 769px) {}
+
+@media (min-width: 1025px) {}
+
+@media (min-width: 1201px) {}
