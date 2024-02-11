@@ -8,25 +8,10 @@
     font-size: 1.2em;
 }
 
-.site-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 1em;
-    align-items: center;
-}
-
-.site-header a {
-    text-decoration: none;
-    color: #333;
-}
 
 .logo a {
     color: rgb(167, 14, 146);
     font-size: 2.3em;
-}
-
-.site-header li {
-    list-style: none;
 }
 
 
@@ -38,7 +23,7 @@
     .site-header nav {
         display: none;
         position: absolute;
-        right: 0; top: 3em;
+        right: 0; top: 5em;
     }    
 
     #nav-toggle:checked + .site .section nav {
@@ -47,7 +32,6 @@
         align-items: center;
         width: 100%;
         border-radius: 0.3em;
-        background: #ccc;
     }
 
 
@@ -62,16 +46,25 @@
 
     .site .section nav ul {
         display: flex;
+        flex-direction: column;
         width: 100%;
         padding: 0.5em 0;
-        gap: 2em;
         justify-content: center;
+        gap: 1em;
+        background: #333;
+        border-radius: 0.3em;
+    }
+
+    .site .section nav a {
+        color: #fff;
+        padding: 0.5em 1em;
+        font-size: 1.1em;
     }
 
     .site .section nav li {
-        padding: 0 0.5em;
+        padding: 0.5em 0.2em;
     }
-    
+
     .site .section nav li:hover {
         background: gray;
     }

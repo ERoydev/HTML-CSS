@@ -1,4 +1,38 @@
 .section {
     max-width: 90%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
 }
+
+.main-article {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-article span {
+    display: block;
+}
+
+.content {
+    flex: 0 0 60%;
+    position: relative;
+}
+
+.main-article a {
+    padding: 0.5em 1em;
+    background: rgba(255, 255, 255, 0.459);
+    border: 2px solid black;
+    text-decoration: none;
+    color: #333;
+    position: absolute;
+    bottom: 4em;
+    box-shadow: 0 0 0.5em 0 rgba(0, 0, 0, 0.2);
+}
+
+.media {
+    font-size: 150px;
+}
+
+    
