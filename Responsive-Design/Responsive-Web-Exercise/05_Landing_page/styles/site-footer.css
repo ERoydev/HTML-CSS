@@ -1,4 +1,40 @@
 
 .site-footer footer {
     display: flex;
+    padding: 2em;
+}
+
+
+.site-footer .links {
+    display: flex;
+    gap: 4em;
+}
+
+.site-footer div {
+    padding-bottom: 1.5em;
+}
+
+.site-footer a {
+    text-decoration: none;
+    color: #333;
+}
+
+.site-footer li {
+    list-style: none;
+}
+
+.site-footer ul {
+    padding: 0;
+}
+
+h5 {
+    font-size: 1.4em;
+}
+
+footer {
+    padding-bottom: 3em;
+}
+
+.site-footer {
+    background: #ccc;
 }

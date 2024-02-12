@@ -24,6 +24,7 @@
         display: none;
         position: absolute;
         right: 0; top: 5em;
+        z-index: 1000;
     }    
 
     #nav-toggle:checked + .site .section nav {
@@ -33,7 +34,6 @@
         width: 100%;
         border-radius: 0.3em;
     }
-
 
     #nav-toggle:checked + .site .site-header label[for="nav-toggle"] span {
         display: none;
