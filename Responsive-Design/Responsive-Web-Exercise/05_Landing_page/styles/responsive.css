@@ -1,0 +1,6 @@
+
+@media (min-width: 320px) {
+    .site-footer footer {
+        flex-direction: column;
+    }
+}
