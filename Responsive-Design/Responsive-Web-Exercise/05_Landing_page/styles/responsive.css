@@ -4,3 +4,35 @@
         flex-direction: column;
     }
 }
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    main {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1201px) {
+    main {
+        max-width: 60em;
+        margin: 0 auto;
+    }
+
+    .site-footer footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .links {
+        display: flex;
+    }
+
+    .site-footer footer div {
+        flex: 0 0 12em;
+    }
+
+    .links div:nth-child(2) {
+        position: relative;
+        top: 2.2em;
+    }
+}

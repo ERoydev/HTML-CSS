@@ -15,7 +15,7 @@
 }
 
 
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 1200px) {
     .site-header {
         position: relative;
     }
@@ -70,10 +70,18 @@
     }
 }
 
-@media (min-width: 481px) {}
+@media (min-width: 1200px) {
+    .site-header .toggle {
+        display: none;
+    }
 
-@media (min-width: 769px) {}
-
-@media (min-width: 1025px) {}
+    .site-header nav ul span {
+        display: none;
+    }
+    .site-header nav ul {
+        display: flex;
+        gap: 2em;
+    }
+}
 
 @media (min-width: 1201px) {}
