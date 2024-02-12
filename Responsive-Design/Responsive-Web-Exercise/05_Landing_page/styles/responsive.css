@@ -21,11 +21,13 @@
     .site-footer footer {
         flex-direction: row;
         justify-content: space-between;
+        padding: 3em;
     }
 
     .links {
         display: flex;
     }
+
 
     .site-footer footer div {
         flex: 0 0 12em;
