@@ -18,7 +18,7 @@ body {
 }
 
 article {
-    display: flex;
+    display: block;
     width: 25em;
     margin: 0 auto;
 }
@@ -26,11 +26,13 @@ article {
 .green {
     display: flex;
     align-items: flex-start;
+    position: relative;
 }
 
 .yellow {
     display: flex;
     align-items: flex-start;
+    position: relative;
 }
 
 section {
