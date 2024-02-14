@@ -1,0 +1,34 @@
+
+@media (max-width: 600px) {
+    .navbar-link {
+        display: none;
+    }
+
+    .section-container {
+        flex-wrap: wrap;
+    }
+
+    .section-container .home-left4  {
+        padding: 2em;
+    }
+
+    .section-container .home-image6 {
+        width: 100%;
+    }
+
+    .home-footer1 {
+        flex-direction: column;
+        gap: 2.5em;
+        padding-top: 35px;
+        padding-bottom: 20px;
+    }
+
+    .home-links-container {
+        order: 1;
+        flex-direction: column;
+    }
+
+    .home-container09 {
+        order: 10;
+    }
+}
