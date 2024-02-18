@@ -67,11 +67,20 @@
         width: 100%;
     }
 
+
     .home-stats {
         display: block;
+        position: relative;
+        bottom: -850px;
     }
 
     .home-stats span {
         display: block;
+    }
+
+    .home-text08,
+    .home-text17 {
+        display: flex;
+        gap: 0.2em;
     }
 }
