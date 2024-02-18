@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    font: 14px/1.5 'Inter', 'sans-serif';
+}
+
+* {
+    font-family: inherit;
+}
+
+.container {
+    width: 1060px;
+    display: flex;
+    background: #85DCFF;
+    padding: 5.14em 2.42em 3.42em 2.42em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.media {
+    width: 361px;
+}
+
+h1 {
+    font-size: 45px;
+    line-height: 1.2;
+    padding-bottom: 30px;
+}
+
+p {
+    color: #252525;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 1em 2em;
+    border-radius: 0.2em;
+    color: rgb(49, 49, 49);
+}
+
+.buttons {
+    padding-top: 1.5em;
+    display: flex;
+    gap: 1em;
+}
+
+.buttons a:first-child {
+    background: #42AA59;
+    color: black;
+    border: 1px solid black;
+}
+
+.buttons a:first-child:hover {
+    background: black;
+    color: #fff;
+}
+
+
+.buttons a:last-child {
+    background: #fff;
+}
+
+img {
+    box-shadow: 0.3em 0.3em 0.6em 0.1em rgba(0, 0, 0, 0.8);
+}
