@@ -18,29 +18,47 @@ img {
     height: auto;
 }
 
+body {
+    padding: 2em;
+}
+
 .container {
     max-width: 80%;
     margin: 0 auto;
+    display: flex;
+    gap: 1em;
 }
 
 .card {
     display: flex;
+    background: #ccc;
+    flex: 0 0 543px;
+    border-radius: 0.3em;
 }
 
-.content {
+/* .content {
     flex: 0 0 543px;
-}
+} */
 
 .content .desc {
     margin: 2em 3.21em 2em 3.21em;
 }
 
 .author {
-    border-top: 2px solid rgba(128, 128, 128, 0.596);
+    border-top: 3px solid rgba(128, 128, 128, 0.596);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .author .name {
     color: #555555;
+}
+
+.profile-content {
+    display: flex;
+    align-items: center;
+    gap: 1em;
 }
 
 .profile-pic {
@@ -49,6 +67,30 @@ img {
     aspect-ratio: 1/1;
     border-radius: 50%;
     overflow: hidden;
-    
 }
 
+.media {
+    width: 543px;
+    overflow: hidden;
+}
+
+.media img {
+    height: 315px;
+}
+
+h4 {
+    color: gray;
+    padding-bottom: 0.4em;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.sub-title {
+    color: black;
+    font-size: 1.4em;
+    padding-bottom: 1em;
+}
+
+p {
+    color: #555555;
+}
