@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+body, input {
+    font: inherit;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.card {
+    display: flex;
+}
+
+.content {
+    flex: 0 0 543px;
+}
+
+.content .desc {
+    margin: 2em 3.21em 2em 3.21em;
+}
+
+.author {
+    border-top: 2px solid rgba(128, 128, 128, 0.596);
+}
+
+.author .name {
+    color: #555555;
+}
+
+.profile-pic {
+    margin: 1em 0 1em 0;
+    max-width: 4.14em;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+

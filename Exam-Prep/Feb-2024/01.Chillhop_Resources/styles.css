@@ -48,8 +48,13 @@ body {
     margin-top: 2em;
 }
 
-.media img {
-    width: 287px;
+/*  Da moje da se razpune i svie contenta v konteinera */
+.content {
+    flex: 1 1 auto;
+}
+
+.media {
+    flex: 0 0 285px;
 }
 
 h3 {
