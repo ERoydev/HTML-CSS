@@ -1,0 +1,23 @@
+.site-footer {
+    border-top: 1px solid var(--clr-border-layout);
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+}
+
+.site-footer .socials {
+    gap: 0;
+}
+
+.site-footer .socials li {
+    border-left: 1px solid var(--clr-border-layout);
+}
+
+.site-footer p {
+    padding-bottom: 0;
+}
+
+.site-footer p,
+.site-footer li {
+    padding: 0.8em 1.2em;
+}

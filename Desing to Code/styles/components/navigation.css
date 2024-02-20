@@ -6,7 +6,6 @@
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 2em;
 }
 
 .main-nav li {
@@ -15,14 +14,49 @@
     line-height: 1;
 }
 
+.main-nav li {
+    border-left: 1px solid var(--clr-border-layout);
+}
+
+.main-nav li:nth-last-child(2) {
+    border-right: 1px solid var(--clr-border-layout);    
+}
+
 /* To push the last link of my nav in the right corner*/
 .main-nav li:last-child {
     margin-left: auto;
 }
 
-.main-nav li a {
+.main-nav a {
     display: block;
     padding: 0.8em 1em;
     text-decoration: none;
+    position: relative;
+}
 
+.main-nav a::before {
+    display: inline-block;
+    content: "_";
+}
+
+.main-nav a:focus,
+.main-nav a:hover {
+    background-color: rgb(255, 255,255, 0.1);
+}
+
+/* To change the color for selected nav link */
+.main-nav li.selected a {
+    color: #fff;
+}
+
+/* To put underline for the selected nav link */
+.main-nav li.selected a::after {
+    display: block;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #FEA55F;
+    position: absolute;
+    top: calc(100% - 1px);
+    left: 0;
 }

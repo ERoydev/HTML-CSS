@@ -1,0 +1,26 @@
+.socials {
+    display: flex;
+    padding: 0 1em;
+    margin: 0;
+    gap: 1em;
+}
+
+.socials li {
+    display: block;
+    list-style: none outside;
+    align-items: center;
+}
+
+.socials span.icon {
+    display: block;
+}
+
+.socials span.icon svg {
+    display: block;
+    width: 1.5em;
+    fill: #fff;
+}
+
+.socials span.title {
+    display: none;
+}
