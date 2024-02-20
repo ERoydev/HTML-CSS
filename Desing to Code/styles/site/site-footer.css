@@ -2,6 +2,8 @@
     border-top: 1px solid var(--clr-border-layout);
     display: flex;
     align-items: center;
+    position: relative;
+    z-index: 10;
 }
 
 .site-footer .socials {
@@ -9,6 +11,9 @@
     flex-grow: 1;
 }
 
+.site-footer .socials a {
+    color: #fff;
+}
 .site-footer .socials li {
     border-left: 1px solid var(--clr-border-layout);
 }

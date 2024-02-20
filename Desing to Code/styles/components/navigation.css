@@ -1,5 +1,5 @@
 .main-nav {
-
+    display: none;
 }
 
 .main-nav ul {
@@ -59,4 +59,10 @@
     position: absolute;
     top: calc(100% - 1px);
     left: 0;
+}
+
+@media (min-width: 800px) {
+    .main-nav {
+        display: block;
+    }
 }
