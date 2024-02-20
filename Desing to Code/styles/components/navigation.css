@@ -1,0 +1,28 @@
+.main-nav {
+
+}
+
+.main-nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 2em;
+}
+
+.main-nav li {
+    display: block;
+    list-style: none outside;
+    line-height: 1;
+}
+
+/* To push the last link of my nav in the right corner*/
+.main-nav li:last-child {
+    margin-left: auto;
+}
+
+.main-nav li a {
+    display: block;
+    padding: 0.8em 1em;
+    text-decoration: none;
+
+}
