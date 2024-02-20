@@ -11,6 +11,12 @@
     align-items: center;
 }
 
+.socials a {
+    display: flex;
+    gap: 1em;
+    text-decoration: none;
+}
+
 .socials span.icon {
     display: block;
 }
