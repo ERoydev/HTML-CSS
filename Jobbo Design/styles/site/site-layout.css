@@ -1,0 +1,8 @@
+body {
+    background-color: var(--clr-body-bgrd);
+}
+
+.container {
+    max-width: 83%;
+    margin: 0 auto;
+}
