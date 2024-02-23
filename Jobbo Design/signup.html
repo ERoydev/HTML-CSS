@@ -9,27 +9,28 @@
 <body>
     <div class="authorization">
         <div class="auth-container">
-
             <form id="form1">
-                <h3>Create Account</h3>
-                <input type="text" placeholder="Email">
-                <input type="text" placeholder="Password">
-                <input type="text" placeholder="Confirm Password">
-
+                <h3>What are you going to do ?</h3>
+                <input type="button" value="Find job">
+                <input type="button" value="Find employees">
                 <div class="btn-box">
                     <button type="button" id="next1">Next</button>
                 </div>
             </form>
 
             <form id="form2">
-                <h3>What are you going to do ?</h3>
-                <input type="button" value="Find job">
-                <input type="button" value="Find employees">
+                <h3>Create Account</h3>
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Password">
+                <input type="text" placeholder="Confirm Password">
+
                 <div class="btn-box">
                     <button type="button" id="back1">Back</button>
                     <button type="button" id="next2">Next</button>
                 </div>
             </form>
+
+            
 
             <form name="employee" id="form3">
                 <h3>Personal Information</h3>
@@ -76,22 +77,31 @@
         next1.addEventListener('click', () => {
             form1.style.left = "-600px";
             form2.style.left = "40px";
+            progress.style.width = "332px";
         })
 
         back1.addEventListener('click', () => {
             form1.style.left = "40px";
             form2.style.left = "600px";
+            progress.style.width = "166px";
         })
 
         next2.addEventListener('click', () => {
             form2.style.left = "-600px";
             form3.style.left = "40px";
+            progress.style.width = "498px";
+
         })
 
         back2.addEventListener('click', () => {
             form2.style.left = "40px";
             form3.style.left = "600px";
+            progress.style.width = "332px";
+
         })
+
+        const progress = document.getElementById('progress');
+
     </script>
 </body>
 </html>
