@@ -17,7 +17,7 @@ html {
     }
 }
 
-body, table, input {
+body, table, input, button {
     font: inherit;
 }
 
