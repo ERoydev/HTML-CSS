@@ -11,8 +11,12 @@
 
 @import url(site/site-main.css);
 
+@import url(elements/forms.css);
+
 @import url(components/navigations.css);
 @import url(elements/buttons.css);
 @import url(base/variables.css);
 
 @import url(pages/searchjob.css);
+@import url(pages/post.css);
+@import url(pages/signup.css);

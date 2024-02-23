@@ -102,3 +102,7 @@
 .site-footer .socials svg:hover {
     fill: #cacacaa4;
 }
+
+.site-footer form input::placeholder {
+    color: #fff;
+}

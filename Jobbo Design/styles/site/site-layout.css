@@ -1,5 +1,7 @@
 body {
     background-color: var(--clr-body-bgrd);
+    min-height: 100vh;
+    position: relative;
 }
 
 .container {
